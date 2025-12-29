@@ -292,6 +292,34 @@ span{
     font-size: 0.75rem;
     margin-right: 5px;
 }
+@media screen and (max-width: 600px){
+    main{
+        grid-template-columns: 1fr;
+        padding: 16px;
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        position: static;
+    }
+
+    .main-content{
+        padding: 20px;
+    }
+
+    .projectcont{
+        grid-template-columns: 1fr;
+    }
+
+    nav{
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
 
 @media screen and (max-width:1200px){
     main{
@@ -303,4 +331,5 @@ span{
         height: auto;
         position:static;
     }
+
 }
